@@ -12,3 +12,6 @@ This little project is about classifying tuberculosis (X-ray imagery).
 ### CNN from scratch (Tuber folder):
     - Test accuracy: 96.25 %
     - Test loss: 10.61 %
+    
+# ACKNOWLEDGEMENT
+This little project would not have been possible without Kaggle.
