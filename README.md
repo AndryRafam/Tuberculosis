@@ -13,5 +13,10 @@ This little project is about classifying tuberculosis (X-ray imagery).
     - Test accuracy: 96.25 %
     - Test loss: 10.61 %
     
+### EfficientNetB3 (Transfer Learning):
+    - Test accuracy: 98.12
+    - Test loss: 6.77 %
+
+    
 # ACKNOWLEDGEMENT
 This little project would not have been possible without Kaggle.
