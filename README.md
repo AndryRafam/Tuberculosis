@@ -8,13 +8,17 @@ This little project is about classifying tuberculosis (X-ray imagery).
     - The second is to use transfer learning technique (feature extraction) with data augmentation.
 
 ## Result of the experiment
-### CNN from scratch (Tuber folder):
+### CNN from scratch:
     - Test accuracy: 96.25 %
     - Test loss: 10.61 %
     
 ### EfficientNetB3 (Transfer Learning):
     - Test accuracy: 98.12
     - Test loss: 6.77 %
+    
+### ResNet50V2 (Transfer Learning):
+    - Test accuracy: 99.37 %
+    - Test loss : 5.64 %
 
     
 # ACKNOWLEDGEMENT
