@@ -21,8 +21,11 @@ This little project is about classifying tuberculosis (X-ray imagery).
     - Test loss : 5.64 %
 
 ### VGG19 (Transfer Learning Fine-Tuning):
-    - Test accuracy: 100 %
-    - Test loss: 1.70 %
+    - Validation accuracy: 99.56 %
+    - Validation loss: 1.67 %
+    
+    - Test accuracy: 99.37 %
+    - Test loss: 3.12 %
     
 # ACKNOWLEDGEMENT
 This little project would not have been possible without Kaggle.
