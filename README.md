@@ -23,8 +23,11 @@ This little project is about classifying tuberculosis (X-ray imagery).
     - Test loss: 9.56 %
     
 ### ResNet50V2 (Transfer Learning Feature-Extraction):
-    - Test accuracy: 99.37 %
-    - Test loss : 5.64 %
+    - Validation accuracy: 98.09 %
+    - Val loss: 4.79 %
+
+    - Test accuracy: 97.50 %
+    - Test loss : 4.94 %
 
 ### VGG19 (Transfer Learning Fine-Tuning):
     - Validation accuracy: 99.56 %
