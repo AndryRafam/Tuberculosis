@@ -9,8 +9,11 @@ This little project is about classifying tuberculosis (X-ray imagery).
 
 ## Result of the experiment
 ### CNN from scratch:
-    - Test accuracy: 96.25 %
-    - Test loss: 10.61 %
+    - Validation accuracy: 97.50 %
+    - Validation loss: 8.76 %
+    
+    - Test accuracy: 96.88 %
+    - Test loss: 12.27 %
     
 ### EfficientNetB3 (Transfer Learning Feature-Extraction):
     - Test accuracy: 98.12
