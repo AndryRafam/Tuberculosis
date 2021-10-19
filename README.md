@@ -30,13 +30,6 @@ In order to achieve our goal, we are going to use two methods:
     - Test accuracy: 97.50 %
     - Test loss : 4.94 %
 
-### VGG19 (Transfer Learning Fine-Tuning):
-    - Validation accuracy: 99.56 %
-    - Validation loss: 1.67 %
-    
-    - Test accuracy: 99.37 %
-    - Test loss: 3.12 %
-    
 ### VGG16 (Transfer Learning Fine-Tuning):
     - Validation Accuracy: 100.00 %
     - Validation Loss: 0.84 %
@@ -44,6 +37,13 @@ In order to achieve our goal, we are going to use two methods:
     - Test Accuracy: 100.00 %
     - Test Loss: 1.03 %
 
+### VGG19 (Transfer Learning Fine-Tuning):
+    - Validation accuracy: 99.56 %
+    - Validation loss: 1.67 %
+    
+    - Test accuracy: 99.37 %
+    - Test loss: 3.12 %
+    
     
 # ACKNOWLEDGEMENT
 Thanks to Tawsifur Rahman for this dataset. https://www.kaggle.com/tawsifurrahman
