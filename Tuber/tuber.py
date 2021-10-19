@@ -88,9 +88,9 @@ class Tuber():
         self.x = MaxPooling2D()(self.x)
         self.x = Flatten()(self.x)
         self.x = Dense(128,activation="relu")(self.x)
-        self.x = Dropout(0.4,seed=123)(self.x)
+        self.x = Dropout(0.2,seed=123)(self.x)
         self.x = Dense(64,activation="relu")(self.x)
-        self.x = Dropout(0.4,seed=123)(self.x)
+        self.x = Dropout(0.2,seed=123)(self.x)
         self.outputs = Dense(2,activation="sigmoid")(self.x)
         self.model = Model(input,self.outputs,name="Tuber")
         return self.model
