@@ -46,4 +46,4 @@ In order to achieve our goal, we are going to use two methods:
     
     
 # ACKNOWLEDGEMENT
-Thanks to Tawsifur Rahman for this dataset. https://www.kaggle.com/tawsifurrahman
+Thanks to Tawsifur Rahman for this dataset https://www.kaggle.com/tawsifurrahman
