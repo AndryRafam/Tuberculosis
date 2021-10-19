@@ -38,4 +38,4 @@ In order to achieve our goal, we are going to use two methods:
     - Test loss: 3.12 %
     
 # ACKNOWLEDGEMENT
-This little project would not have been possible without Kaggle.
+Thanks to 
