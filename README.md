@@ -3,9 +3,10 @@ This little project is about classifying tuberculosis (X-ray imagery).
 
 #### The dataset can be downloaded from kaggle: https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset
 
-## We are essentially using two methods in order to achieve our goal.
-    - The first one is to build a CNN (Convolutional Neural Network) from scratch with data augmentation.
-    - The second is to use transfer learning technique with data augmentation.
+In order to achieve our goal, we are going to use two methods:
+
+    - 1) Building a CNN (Convolutional Neural Network) from scratch with data augmentation.
+    - 2) Transfer learning techniques with data augmentation.
 
 ## Result of the experiment
 ### CNN from scratch:
