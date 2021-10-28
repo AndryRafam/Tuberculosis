@@ -59,7 +59,7 @@ train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
 
-from tensorflow.keras.layers.experimental.preprocessing import RandomZoom, RandomRotation
+from tensorflow.keras.layers import RandomZoom, RandomRotation
 
 data_augmentation = tf.keras.Sequential([
 	RandomZoom(0.2),
@@ -67,7 +67,7 @@ data_augmentation = tf.keras.Sequential([
 ])
 
 from tensorflow.keras import Input, Model
-from tensorflow.keras.layers.experimental.preprocessing import Rescaling
+from tensorflow.keras.layers import Rescaling
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.models import load_model
 from tensorflow.keras.optimizers import Adam
