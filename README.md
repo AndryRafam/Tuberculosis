@@ -24,12 +24,12 @@ In order to achieve our goal, we are going to use two methods:
     - Test loss: 15.45 %
     
 ### ResNet50V2 (Transfer Learning Feature-Extraction):
-    - Validation accuracy: 98.09 %
-    - Validation loss: 4.79 %
+    - Validation accuracy: 97.94 %
+    - Validation loss: 5.04 %
 
-    - Test accuracy: 97.50 %
-    - Test loss : 4.94 %
-
+    - Test accuracy: 98.12 %
+    - Test loss : 5.58 %
+    
 ### VGG16 (Transfer Learning Fine-Tuning):
     - Validation Accuracy: 100.00 %
     - Validation Loss: 0.84 %
