@@ -63,8 +63,8 @@ test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
 from tensorflow.keras import Sequential
 
 data_augmentation = Sequential([
-    tf.keras.layers.experimental.preprocessing.RandomZoom(0.2),
-    tf.keras.layers.experimental.preprocessing.RandomRotation(0.1),
+    tf.keras.layers.RandomZoom(0.2),
+    tf.keras.layers.RandomRotation(0.1),
 ])
 
 
