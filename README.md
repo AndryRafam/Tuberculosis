@@ -17,11 +17,11 @@ In order to achieve our goal, we are going to use two methods:
     - Test loss: 12.27 %
     
 ### EfficientNetB3 (Transfer Learning Feature-Extraction):
-    - Validation accuracy: 96.62 %
-    - Validation loss: 10.21 %
-    
-    - Test accuracy: 98.75
-    - Test loss: 9.56 %
+    - Validation accuracy: 93.82 %
+    - Validation loss: 18.21 %
+
+    - Test accuracy: 95.63
+    - Test loss: 15.45 %
     
 ### ResNet50V2 (Transfer Learning Feature-Extraction):
     - Validation accuracy: 98.09 %
