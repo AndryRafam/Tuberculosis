@@ -58,7 +58,7 @@ val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
 
 
-from tensorflow.keras.layers.experimental.preprocessing import RandomZoom, RandomRotation
+from tensorflow.keras.layers import RandomZoom, RandomRotation
 
 data_augmentation = tf.keras.Sequential([
 	RandomZoom(0.2),
