@@ -10,12 +10,12 @@ In order to achieve our goal, we are going to use two methods:
 
 ## Result of the experiment
 ### CNN from scratch:
-    - Validation accuracy: 97.50 %
-    - Validation loss: 8.76 %
-    
-    - Test accuracy: 96.88 %
-    - Test loss: 12.27 %
-    
+    - Val accuracy: 97.35 %
+    - Val loss: 8.34 %
+
+    - Test accuracy: 95.63 %
+    - Test loss: 12.82 %
+
 ### EfficientNetB3 (Transfer Learning Feature-Extraction):
     - Validation accuracy: 93.82 %
     - Validation loss: 18.21 %
