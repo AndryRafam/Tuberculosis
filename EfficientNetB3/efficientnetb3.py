@@ -60,54 +60,17 @@ train_ds = train_ds.prefetch(buffer_size=AUTOTUNE)
 val_ds = val_ds.prefetch(buffer_size=AUTOTUNE)
 test_ds = test_ds.prefetch(buffer_size=AUTOTUNE)
 
-from tensorflow.keras import Sequential
-from tensorflow.keras.layers import RandomZoom, RandomRotation
 
-data_augmentation = Sequential([
-    RandomZoom(0.2),
-    RandomRotation(0.1),
-])
-
-
-from tensorflow.keras.applications import efficientnet, EfficientNetB3
-from tensorflow.keras.layers import GlobalAveragePooling2D, Dense, Dropout
-from tensorflow.keras.optimizers import Adam
-from tensorflow.keras.losses import SparseCategoricalCrossentropy
-from tensorflow.keras import Input, Model
-
-rescale = efficientnet.preprocess_input
-
-base_model = EfficientNetB3(input_shape=(256,256,3),include_top=False,weights="imagenet")
-image_batch,label_batch = next(iter(train_ds))
-
-base_model.trainable = False
-base_model.summary()
-
-class Transfer_Efficient():
-    def model(self,input):
-        self.x = data_augmentation(input)
-        self.x = rescale(self.x)
-        self.x = base_model(self.x,training=False)
-        self.x = GlobalAveragePooling2D()(self.x)
-        self.x = Dropout(0.2,seed=1337)(self.x)
-        self.outputs = Dense(2,activation="sigmoid")(self.x)
-        self.model = Model(input,self.outputs,name="Transfer_EfficientB3")
-        return self.model
-
-TEB3 = Transfer_Efficient()
-model = TEB3.model(Input(shape=(256,256,3)))
-model.summary()
-model.compile(Adam(),SparseCategoricalCrossentropy(),metrics=["accuracy"])
-
+import api
 from tensorflow.keras.callbacks import ModelCheckpoint
 from tensorflow.keras.models import load_model
 
 if __name__=="__main__":
-    loss0,accuracy0 = model.evaluate(val_ds)
+    loss0,accuracy0 = api.model.evaluate(val_ds)
     print("Initial loss: {:.2f} %".format(100*loss0))
     print("Initial accuracy: {:.2f} %".format(100*accuracy0))
     checkpoint = ModelCheckpoint("tuberculosis.hdf5",save_weights_only=False,monitor="val_loss",save_best_only=True)
-    model.fit(train_ds,epochs=10,validation_data=val_ds,callbacks=[checkpoint])
+    api.model.fit(train_ds,epochs=10,validation_data=val_ds,callbacks=[checkpoint])
     best = load_model("tuberculosis.hdf5")
     val_loss,val_accuracy = best.evaluate(val_ds)
     test_loss,test_accuracy = best.evaluate(test_ds)
