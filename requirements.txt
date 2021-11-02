@@ -3,6 +3,7 @@ appdirs==1.4.4
 apt-xapian-index==0.49
 apturl==0.5.2
 argon2-cffi==20.1.0
+asgiref==3.4.1
 astunparse==1.6.3
 async-generator==1.10
 attrs==21.2.0
@@ -20,6 +21,7 @@ catkin-pkg==0.4.16
 certifi==2019.11.28
 cffi==1.14.5
 chardet==3.0.4
+clang==5.0
 click==7.1.2
 colorama==0.4.3
 command-not-found==0.3
@@ -37,6 +39,8 @@ defusedxml==0.7.1
 dill==0.3.3
 distro==1.4.0
 distro-info===0.23ubuntu1
+Django==3.2.8
+djangorestframework==3.12.4
 dm-tree==0.1.6
 docutils==0.16
 duplicity==0.8.12.0
@@ -65,7 +69,7 @@ google-resumable-media==1.3.0
 googleapis-common-protos==1.53.0
 gpg===1.13.1-unknown
 graphviz==0.16
-grpcio==1.34.1
+grpcio==1.41.1
 h5py==3.1.0
 httplib2==0.19.1
 ibm-cloud-sdk-core==3.11.3
@@ -88,6 +92,7 @@ jupyter-core==4.7.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.0
 kaggle==1.5.12
+keras==2.6.0
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
 keyboard==0.13.5
@@ -172,7 +177,7 @@ pyparsing==2.4.7
 PyQt5==5.14.1
 pyRFC3339==1.1
 pyrsistent==0.17.3
-python-apt==2.0.0+ubuntu0.20.4.5
+python-apt==2.0.0+ubuntu0.20.4.6
 python-dateutil==2.7.3
 python-debian===0.1.36ubuntu1
 python-Levenshtein==0.12.2
@@ -208,18 +213,19 @@ smart-open==3.0.0
 SoundFile==0.10.3.post1
 spacy==3.1.0
 spacy-legacy==3.0.8
+sqlparse==0.4.2
 srsly==2.4.1
 systemd-python==234
 tenacity==8.0.1
-tensorboard==2.5.0
+tensorboard==2.7.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.5.0
+tensorflow==2.6.0
 tensorflow-addons==0.13.0
 tensorflow-datasets==4.3.0
-tensorflow-estimator==2.5.0
+tensorflow-estimator==2.6.0
 tensorflow-examples===bd112b6d423b87e2bebb2d9a6810270bea7b0957-
-tensorflow-gpu==2.5.0
+tensorflow-gpu==2.6.0
 tensorflow-hub==0.9.0
 tensorflow-metadata==1.0.0
 tensorflow-model-optimization==0.5.0
