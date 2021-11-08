@@ -22,7 +22,6 @@ class Transfer_VGG16():
         self.x = data_augmentation(input)
         self.x = rescale(self.x)
         self.x = base_model(self.x,training=False)
-        self.x = tf.keras.layers.GlobalAveragePooling2D()(self.x)
         self.x = tf.keras.layers.Flatten()(self.x)
         self.x = tf.keras.layers.Dense(128,activation="relu")(self.x)
         self.x = tf.keras.layers.Dropout(0.2,seed=42)(self.x)
