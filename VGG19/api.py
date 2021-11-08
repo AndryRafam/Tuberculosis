@@ -28,7 +28,6 @@ class Transfer_VGG19():
         self.x = data_augmentation(input)
         self.x = rescale(self.x)
         self.x = base_model(self.x,training=False)
-        self.x = GlobalAveragePooling2D()(self.x)
         self.x = Flatten()(self.x)
         self.x = Dense(128,activation="relu")(self.x)
         self.x = Dropout(0.4,seed=42)(self.x)
