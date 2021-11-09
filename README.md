@@ -15,6 +15,13 @@ In order to achieve our goal, we are going to use two methods:
 
     - Test accuracy: 95.63 %
     - Test loss: 12.82 %
+    
+### DenseNet201 (Transfer Learning Feature-Extraction):
+    - Val accuracy: 98.12 %
+    - Val loss: 5.20 %
+    
+    - Test accuracy: 97.50 %
+    - Test loss: 7.21 %
 
 ### EfficientNetB3 (Transfer Learning Feature-Extraction):
     - Validation accuracy: 93.82 %
