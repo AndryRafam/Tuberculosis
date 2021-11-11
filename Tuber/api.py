@@ -10,7 +10,7 @@ from tensorflow.keras import Input, Model
 from tensorflow.keras.layers import Rescaling
 from tensorflow.keras.layers import Conv2D, MaxPooling2D, Flatten, Dense, Dropout
 from tensorflow.keras.models import load_model
-from tensorflow.keras.optimizers import Adam
+from tensorflow.keras.optimizers import RMSprop
 from tensorflow.keras.losses import SparseCategoricalCrossentropy
 
 
@@ -36,4 +36,4 @@ class Tuber():
 tuber = Tuber()
 model = tuber.model(Input(shape=(224,224,3)))
 model.summary()
-model.compile(Adam(),SparseCategoricalCrossentropy(),metrics=["accuracy"])
+model.compile(RMSprop(),SparseCategoricalCrossentropy(),metrics=["accuracy"])
