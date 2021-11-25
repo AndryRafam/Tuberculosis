@@ -1,12 +1,12 @@
 # Tuberculosis
-This little project is about classifying tuberculosis (X-ray imagery).
+This project is about:
+    1) Building several tuberculosis disease classifier.
+    2) Watching how each model performs on the dataset and which one performs the best.
+    
+Two methods are mainly used here in order to achieve our goal. Transfer Learning techniques (Feature Extraction && Fine Tuning) and the other is about building a classfier model from scratch (CNN from scratch).
 
 #### The dataset can be downloaded from kaggle: https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset
 
-In order to achieve our goal, we are going to use two methods:
-
-    - 1) Building a CNN (Convolutional Neural Network) from scratch with data augmentation.
-    - 2) Transfer learning techniques with data augmentation.
 
 ## Result of the experiment
 ### CNN from scratch:
