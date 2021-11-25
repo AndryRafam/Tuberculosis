@@ -9,7 +9,7 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
 #### The dataset can be downloaded from kaggle: https://www.kaggle.com/tawsifurrahman/tuberculosis-tb-chest-xray-dataset
 
 
-## Result of the experiment
+## Result of the experiment (Alphabetical Order)
 ### CNN from scratch:
     - Val accuracy: 97.35 %
     - Val loss: 8.34 %
