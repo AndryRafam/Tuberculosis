@@ -25,7 +25,6 @@ clang==5.0
 click==7.1.2
 colorama==0.4.3
 command-not-found==0.3
-configobj==5.0.6
 cryptography==2.8
 cupshelpers==1.0
 cycler==0.10.0
@@ -92,7 +91,7 @@ jupyter-core==4.7.1
 jupyterlab-pygments==0.1.2
 jupyterlab-widgets==1.0.0
 kaggle==1.5.12
-keras==2.6.0
+keras==2.7.0
 keras-nightly==2.5.0.dev2021032900
 Keras-Preprocessing==1.1.2
 keyboard==0.13.5
@@ -102,6 +101,7 @@ language-selector==0.1
 launchpadlib==1.10.13
 lazr.restfulclient==0.14.2
 lazr.uri==1.0.3
+libclang==12.0.0
 librosa==0.8.1
 lightdm-gtk-greeter-settings==1.2.2
 llvmlite==0.36.0
@@ -220,13 +220,14 @@ tenacity==8.0.1
 tensorboard==2.7.0
 tensorboard-data-server==0.6.1
 tensorboard-plugin-wit==1.8.0
-tensorflow==2.6.0
+tensorflow==2.7.0
 tensorflow-addons==0.13.0
 tensorflow-datasets==4.3.0
-tensorflow-estimator==2.6.0
+tensorflow-estimator==2.7.0
 tensorflow-examples===bd112b6d423b87e2bebb2d9a6810270bea7b0957-
-tensorflow-gpu==2.6.0
+tensorflow-gpu==2.7.0
 tensorflow-hub==0.9.0
+tensorflow-io-gcs-filesystem==0.22.0
 tensorflow-metadata==1.0.0
 tensorflow-model-optimization==0.5.0
 tensorflowjs==3.6.0
@@ -248,7 +249,7 @@ traitlets==5.0.5
 typeguard==2.12.0
 typer==0.3.2
 typing-extensions==3.7.4.3
-ubuntu-advantage-tools==27.2
+ubuntu-advantage-tools==27.4
 ubuntu-drivers-common==0.0.0
 ufw==0.36
 unattended-upgrades==0.1
