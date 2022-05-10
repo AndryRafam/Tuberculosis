@@ -29,6 +29,13 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
     - Test accuracy: 95.63
     - Test loss: 15.45 %
     
+### InceptionV3:
+    -Validation accuracy: 97.35 %
+    -Val loss: 7.02 %
+
+    -Test accuracy: 98.75 %
+    -Test loss : 4.90 %
+    
 ### ResNet50V2 (Transfer Learning Feature-Extraction):
     - Validation accuracy: 97.94 %
     - Validation loss: 5.04 %
