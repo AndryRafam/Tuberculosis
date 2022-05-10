@@ -29,7 +29,7 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
     - Test accuracy: 95.63
     - Test loss: 15.45 %
     
-### InceptionV3:
+### InceptionV3 - fine tuned:
     -Validation accuracy: 97.06 %
     -Validation loss: 7.16 %
 
