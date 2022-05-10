@@ -15,9 +15,9 @@ from tensorflow.keras import Input, Model
 rescale = inception_v3.preprocess_input
 
 base_model = InceptionV3(input_shape=(299,299,3),include_top=False,weights="imagenet")
-base_model.trainable = False
-base_model.summary()
 
+for layer in base_model.layers:
+    layer.trainable = False
 
 def model(input):
     x = data_augmentation(input)
