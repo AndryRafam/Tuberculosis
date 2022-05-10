@@ -24,7 +24,6 @@ def model(input):
     x = rescale(x)
     x = base_model(x,training=False)
     x = GlobalAveragePooling2D()(x)
-    x = Dropout(0.2,seed=42)(x)
     outputs = Dense(2)(x)
     model = Model(input,outputs,name="Transfer_InceptionV3")
     return model
