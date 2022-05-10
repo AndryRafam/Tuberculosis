@@ -30,11 +30,11 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
     - Test loss: 15.45 %
     
 ### InceptionV3:
-    -Validation accuracy: 97.35 %
-    -Validation loss: 7.02 %
+    -Validation accuracy: 97.06 %
+    -Validation loss: 7.16 %
 
     -Test accuracy: 98.75 %
-    -Test loss : 4.90 %
+    -Test loss : 4.83 %
     
 ### ResNet50V2:
     - Validation accuracy: 97.94 %
