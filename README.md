@@ -1,6 +1,6 @@
 # Tuberculosis
 
-    The purpose of this project is to check how well a computer vision model built from scratch performs against pre-trained model such as VGG16, VGG19,       ResNet … on the tuberculosis dataset. Interestingly, the model built from scratch performed very well, achieving an accuracy of 97% on the validation     dataset and an accuracy of 95% on the test dataset. The best score was achieved by VGG19 (more than 99% on the validation dataset and test dataset)       after using transfer learning techniques – fine tuning.
+The purpose of this project is to check how well a computer vision model built from scratch performs against pre-trained model such as VGG16, VGG19, ResNet … on the tuberculosis dataset. Interestingly, the model built from scratch performed very well, achieving an accuracy of 97% on the validation dataset and an accuracy of 95% on the test dataset. The best score was achieved by VGG19 (more than 99% on the validation dataset and test dataset) after using transfer learning techniques – fine tuning.
     
 Two methods are mainly used here in order to achieve our goal. Transfer Learning techniques (Feature Extraction && Fine Tuning) and the other is about building a classfier model from scratch (CNN from scratch).
 
