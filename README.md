@@ -49,7 +49,3 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
 
     - Test accuracy: 99.37 %
     - Test loss: 3.30 %
-    
-    
-# ACKNOWLEDGEMENT
-Thanks to Tawsifur Rahman for this dataset https://www.kaggle.com/tawsifurrahman
