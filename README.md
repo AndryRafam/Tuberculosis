@@ -9,15 +9,15 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
 
 ## Result of the experiment (Alphabetical Order)
 ### CNN from scratch:
-    - Val accuracy: 97.35 %
-    - Val loss: 8.34 %
+    - Validation accuracy: 97.35 %
+    - Validation loss: 8.34 %
 
     - Test accuracy: 95.63 %
     - Test loss: 12.82 %
     
 ### DenseNet201 (Transfer Learning Feature-Extraction):
-    - Val accuracy: 98.12 %
-    - Val loss: 5.20 %
+    - Validation accuracy: 98.12 %
+    - Validation loss: 5.20 %
     
     - Test accuracy: 97.50 %
     - Test loss: 7.21 %
@@ -31,7 +31,7 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
     
 ### InceptionV3:
     -Validation accuracy: 97.35 %
-    -Val loss: 7.02 %
+    -Validation loss: 7.02 %
 
     -Test accuracy: 98.75 %
     -Test loss : 4.90 %
