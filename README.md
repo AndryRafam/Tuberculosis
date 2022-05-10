@@ -15,14 +15,14 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
     - Test accuracy: 95.63 %
     - Test loss: 12.82 %
     
-### DenseNet201 (Transfer Learning Feature-Extraction):
+### DenseNet201:
     - Validation accuracy: 98.12 %
     - Validation loss: 5.20 %
     
     - Test accuracy: 97.50 %
     - Test loss: 7.21 %
 
-### EfficientNetB3 (Transfer Learning Feature-Extraction):
+### EfficientNetB3:
     - Validation accuracy: 93.82 %
     - Validation loss: 18.21 %
 
@@ -36,21 +36,21 @@ Two methods are mainly used here in order to achieve our goal. Transfer Learning
     -Test accuracy: 98.75 %
     -Test loss : 4.90 %
     
-### ResNet50V2 (Transfer Learning Feature-Extraction):
+### ResNet50V2:
     - Validation accuracy: 97.94 %
     - Validation loss: 5.04 %
 
     - Test accuracy: 98.12 %
     - Test loss : 5.58 %
     
-### VGG16 (Transfer Learning Fine-Tuning):
+### VGG16 - Fine Tuned:
     - Validation Accuracy: 99.37 %
     - Validation Loss: 0.85 %
 
     - Test Accuracy: 99.37 %
     - Test Loss: 0.99 %
 
-### VGG19 (Transfer Learning Fine-Tuning):
+### VGG19 - Fine Tuned:
     - Validation accuracy: 99.85 %
     - Validation loss: 1.71 %
 
