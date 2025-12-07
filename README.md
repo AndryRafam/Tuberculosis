@@ -1,3 +1,9 @@
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)
+![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
+![Debian](https://img.shields.io/badge/Debian-D70A53?style=for-the-badge&logo=debian&logoColor=white)
+
 # Tuberculosis
 
 The purpose of this project is to check how well a computer vision model built from scratch performs against pre- trained model (VGG16, VGG19, ResNet, InceptionV3 …). Datasets are X-ray images of patient chests with tuberculosis. Interestingly, the model built from scratch performed very well, achieving an accuracy of 97% on the validation dataset and an accuracy of 95% on the test dataset. The best score was achieved by VGG19 (more than 99% on the validation dataset and test dataset) after using transfer learning techniques – fine tuning.
